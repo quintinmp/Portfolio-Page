@@ -1,0 +1,61 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    list-style: none;
+    background-color: lightskyblue;
+}
+
+body {
+    margin: none;
+    display: grid;
+}
+
+.section1 {
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-around;
+    align-items:baseline;
+}
+
+p {
+    margin-left: 40px;
+}
+
+a {
+    text-decoration: none;
+    transition: 0.4s;
+
+}
+
+a:visited, a:link {
+    background-color: red;
+    color:white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 8px;
+    opacity: 0.7;
+}
+
+a:hover {
+    opacity: 0.9;
+}
+
+.material-symbols-outlined {
+    display: flex;
+    align-items: center;
+}
+
+
+.header {
+    display: flex;
+    justify-content: center;
+}
+
+.games .apps .links {
+    display: flex;
+    flex-direction: column;
+
+
+}
+
