@@ -1,7 +1,6 @@
 * {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'PT Serif', serif;
     list-style: none;
-    background-color: lightskyblue;
 }
 
 body {
@@ -14,6 +13,7 @@ body {
     display: flex;
     justify-content: space-around;
     align-items:baseline;
+    flex-direction: column;
 }
 
 p {
@@ -27,8 +27,9 @@ a {
 }
 
 a:visited, a:link {
-    background-color: red;
-    color:white;
+    background-color: transparent;
+    color: white;
+    font-weight: bold;
     padding: 14px 25px;
     text-align: center;
     text-decoration: none;
@@ -41,15 +42,28 @@ a:hover {
     opacity: 0.9;
 }
 
+h1 {
+    font-size: 80px;
+}
+
 .material-symbols-outlined {
     display: flex;
     align-items: center;
 }
 
+.preHeader {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+}
 
 .header {
     display: flex;
     justify-content: center;
+    align-items: center;
+    margin-bottom: -250px;
+    
+
 }
 
 .games .apps .links {
