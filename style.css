@@ -8,12 +8,71 @@ body {
     display: grid;
 }
 
+.preHeader {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    gap: 30px;
+    margin-right: 25px;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: -250px;
+    color: rgb(73, 73, 73);
+}
+
+.header h1 {
+    font-size: 80px;
+    margin-bottom: -15px;
+}
+
 .section1 {
-    margin-top: 150px;
+    margin-top: 250px;
+    margin-left: -30px;
     display: flex;
     justify-content: space-around;
     align-items:baseline;
-    flex-direction: column;
+}
+
+
+.games-header {
+    display: flex;
+    color: rgb(73, 73, 73);
+}
+
+.games .span span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 14px;
+}
+
+.apps-header {
+    display: flex;
+    color: rgb(73, 73, 73);
+}
+
+.apps .span span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 16px;
+}
+
+.links-header {
+    display: flex;
+    color: rgb(73, 73, 73);
+}
+
+.links .span span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 17px;
 }
 
 p {
@@ -21,6 +80,7 @@ p {
 }
 
 a {
+    margin-left: -45px;
     text-decoration: none;
     transition: 0.4s;
 
@@ -42,8 +102,8 @@ a:hover {
     opacity: 0.9;
 }
 
-h1 {
-    font-size: 80px;
+.preHeader a {
+    color: rgb(68, 68, 68);
 }
 
 .material-symbols-outlined {
@@ -51,25 +111,13 @@ h1 {
     align-items: center;
 }
 
-.preHeader {
-    display: flex;
-    flex-direction: row;
-    justify-content: right;
-}
-
-.header {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: -250px;
-    
-
-}
-
 .games .apps .links {
     display: flex;
     flex-direction: column;
+}
 
-
+ul {
+    margin-left: 40px;
+    border-left: 1px solid lightgrey;
 }
 
